@@ -11,6 +11,11 @@ body {
     font-size: 18px;
 }
 
+.main {
+    margin: 20px auto 0px auto;
+    width: 90%;
+}
+
 h1 {
     font-size: 40px;
 }
@@ -59,13 +64,9 @@ ul.nav a:hover {
     text-shadow: 1px 1px 3px #888;
 }
 
-.main {
-    margin-top: 20px;
-}
-
 .supporting {
     font-family: 'Raleway', sans-serif;
-    background: linear-gradient(to bottom, #bbb, #fff);
+    background: linear-gradient(to bottom, #bbb, #fff) no-repeat;
     padding: 50px 0px 10px 0px;
     text-align: center;
 }
