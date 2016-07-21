@@ -1,0 +1,142 @@
+html {
+    /* Required for sticky footer */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Required for sticky footer */
+    margin-bottom: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #b22;
+}
+
+.navbar {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 1px 1px 10px grey;
+    background: linear-gradient(to top, #eee, #fff);
+    border-bottom: #aaa;
+}
+
+ul.nav a:hover {
+    background-color: #b22 !important;
+    color: #fff !important;
+    /* Make this transition nicely */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    border-right: 1px solid;
+    border-color: lightgray;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px #888;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.supporting {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to bottom, #bbb, #fff);
+    padding: 50px 0px 10px 0px;
+    text-align: center;
+}
+
+.supporting h1 {
+    font-weight: 600;
+    text-shadow: 0px 0px 10px #888;
+}
+
+.row {
+    /*    border: 1px green solid;*/
+    width: 80%;
+    margin: 10px auto 30px auto;
+    min-width: 225px;
+}
+
+.portfolio-icon {
+    /*    border: 1px red solid;*/
+    text-align: center;
+}
+
+.portfolio-text {
+    /*    border: 1px blue solid;*/
+    min-width: 225px;
+    /*    margin: 10px 0px 10px 0px;*/
+}
+
+.col-sm-12 {
+    text-align: center;
+}
+
+.portfolio-glyph {
+    font-size: 150px;
+    height: 210px;
+    width: 210px;
+    text-shadow: 0px 4px 30px #888888;
+    padding: 30px 30px;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+
+.footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    padding: 15px 0px 5px 0px;
+    text-align: center;
+    background: linear-gradient(to top, #eee, #fff);
+    border-bottom: #aaa;
+    /* Required for sticky footer */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+}
+
+#drive-booster {
+    color: hsla(210, 70%, 40%, 1);
+    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));
+}
+
+#lab {
+    color: hsla(20, 80%, 45%, 1);
+    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));
+}
+
+#tile-maker {
+    color: hsla(230, 50%, 40%, 1);
+    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));
+}
+
+#headshot {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#signature {
+    height: 100px;
+    width: 349px;
+}
