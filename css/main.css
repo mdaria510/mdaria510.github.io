@@ -35,7 +35,8 @@ h4 {
 }
 
 a {
-    color: black;
+    color: #000;
+    transition: color 0.3s;
 }
 
 a:hover {
@@ -51,10 +52,13 @@ a:hover {
     border-bottom: #aaa;
 }
 
+ul.nav a {
+    transition: background-color 0.3s;
+}
+
 ul.nav a:hover {
-    background-color: #b22 !important;
+    background-color: hsl(11, 70%, 40%) !important;
     color: #fff !important;
-    /* Make this transition nicely */
 }
 
 .navbar-brand {
@@ -109,6 +113,15 @@ ul.nav a:hover {
     box-shadow: 1px 1px 10px grey;
     border-radius: 5%;
     margin-bottom: 30px;
+}
+
+.glyphicon {
+    transition: 0.4s;
+}
+
+.glyphicon:hover {
+    /*    color: hsla(0, 00%, 90%, 1);*/
+    text-shadow: 0px 8px 10px #888;
 }
 
 .footer {
