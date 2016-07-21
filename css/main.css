@@ -20,6 +20,14 @@ h2 {
     margin-top: 0px;
 }
 
+h4 {
+    font-size: 20px;
+}
+
+.main p {
+    font-size: 16px;
+}
+
 a {
     color: black;
 }
@@ -118,6 +126,8 @@ ul.nav a:hover {
 #drive-booster {
     color: hsla(210, 70%, 40%, 1);
     background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));
+    padding-left: 38px;
+    padding-top: 22px;
 }
 
 #lab {
@@ -128,6 +138,8 @@ ul.nav a:hover {
 #tile-maker {
     color: hsla(230, 50%, 40%, 1);
     background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));
+    padding-left: 38px;
+    padding-top: 22px;
 }
 
 #headshot {
@@ -139,4 +151,10 @@ ul.nav a:hover {
 #signature {
     height: 100px;
     width: 349px;
+}
+
+@media (max-width: 767px) {
+    .portfolio-text {
+        text-align: center;
+    }
 }
