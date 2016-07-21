@@ -175,4 +175,8 @@ ul.nav a:hover {
     .main h4 {
         font-size: 1em;
     }
+    #signature {
+        height: 50px;
+        width: 175px;
+    }
 }
