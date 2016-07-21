@@ -141,7 +141,7 @@ ul.nav a:hover {
 
 #drive-booster {
     color: hsla(210, 70%, 40%, 1);
-    /*    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1)) no-repeat;*/
+    /*   background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1)) no-repeat;*/
     background: hsla(0, 00%, 90%, 1);
     padding-left: 38px;
     padding-top: 22px;
