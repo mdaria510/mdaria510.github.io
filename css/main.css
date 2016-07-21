@@ -2,6 +2,7 @@ html {
     /* Required for sticky footer */
     position: relative;
     min-height: 100%;
+    min-width: 300px;
 }
 
 body {
@@ -77,10 +78,10 @@ ul.nav a:hover {
 }
 
 .row {
-/*    border: 1px green solid;*/
-    width: 80%;
+    /*    border: 1px green solid;*/
+    /*    width: 90%;*/
     margin: 10px auto 30px auto;
-    min-width: 225px;
+    /*    min-width: 225px;*/
 }
 
 .portfolio-icon {
@@ -89,8 +90,9 @@ ul.nav a:hover {
 }
 
 .portfolio-text {
-    /*    border: 1px blue solid;*/
+    /*        border: 1px blue solid;*/
     min-width: 225px;
+    margin: 10px auto;
     /*    margin: 10px 0px 10px 0px;*/
 }
 
@@ -101,7 +103,7 @@ ul.nav a:hover {
 .portfolio-glyph {
     font-size: 150px;
     height: 210px;
-    width: 210px;
+    min-width: 210px;
     text-shadow: 0px 4px 30px #888888;
     padding: 30px 30px;
     box-shadow: 1px 1px 10px grey;
@@ -126,7 +128,7 @@ ul.nav a:hover {
 
 #drive-booster {
     color: hsla(210, 70%, 40%, 1);
-/*    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1)) no-repeat;*/
+    /*    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1)) no-repeat;*/
     background: hsla(0, 00%, 90%, 1);
     padding-left: 38px;
     padding-top: 22px;
@@ -134,13 +136,13 @@ ul.nav a:hover {
 
 #lab {
     color: hsla(20, 80%, 45%, 1);
-/*    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));*/
+    /*    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));*/
     background: hsla(0, 00%, 90%, 1);
 }
 
 #tile-maker {
     color: hsla(230, 50%, 40%, 1);
-/*    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));*/
+    /*    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));*/
     padding-left: 38px;
     padding-top: 22px;
     background: hsla(0, 00%, 90%, 1);
