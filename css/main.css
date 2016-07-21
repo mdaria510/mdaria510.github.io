@@ -116,7 +116,7 @@ ul.nav a:hover {
     font-size: 10px;
     padding: 15px 0px 5px 0px;
     text-align: center;
-    background: linear-gradient(to top, #eee, #fff);
+    background: linear-gradient(to top, #bbb, #fff);
     border-bottom: #aaa;
     /* Required for sticky footer */
     position: absolute;
