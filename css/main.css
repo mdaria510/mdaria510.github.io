@@ -139,6 +139,14 @@ ul.nav a:hover {
     height: 50px;
 }
 
+#daylight-for-hue {
+    color: hsla(60, 100%, 70%, 1);
+    /*    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));*/
+    padding-left: 38px;
+    padding-top: 22px;
+    background: hsla(0, 00%, 90%, 1);
+}
+
 #drive-booster {
     color: hsla(210, 70%, 40%, 1);
     /*   background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1)) no-repeat;*/
@@ -150,14 +158,6 @@ ul.nav a:hover {
 #lab {
     color: hsla(20, 80%, 45%, 1);
     /*    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));*/
-    background: hsla(0, 00%, 90%, 1);
-}
-
-#tile-maker {
-    color: hsla(230, 50%, 40%, 1);
-    /*    background: linear-gradient(to bottom right, hsla(00, 0%, 80%, 1), hsla(0, 00%, 90%, 1));*/
-    padding-left: 38px;
-    padding-top: 22px;
     background: hsla(0, 00%, 90%, 1);
 }
 
